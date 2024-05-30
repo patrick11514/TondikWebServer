@@ -102,7 +102,7 @@ index=index.html
 - proxy pass (reverse proxy)
     ```INI
     domain=something.example.com
-    reverse_proxy=http://localhost:8080
+    reverse_proxy=localhost:8080
     access_log=/var/log/webserver/example.com/access.log
     error_log=/var/log/webserver/example.com/error.log
     ```
