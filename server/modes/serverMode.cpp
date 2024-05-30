@@ -389,7 +389,7 @@ void ServerMode::handleProxyPass(const HostConfig &hostConfig, HTTPResponse &res
         if (contentSent >= targetContentLength && sentHeader == true)
         {
             ::close(clientSocket);
-            return;
+            break;
         }
     }
 
